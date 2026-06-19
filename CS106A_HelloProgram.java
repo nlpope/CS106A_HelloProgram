@@ -11,7 +11,10 @@ import java.awt.Color;
 
 public class CS106A_HelloProgram extends GraphicsProgram
 {
-	public void run()
+	public void run(){ createLabel(); }
+	
+	
+	private void createLabel()
 	{
 		GLabel label = new GLabel("hello, worldz", 100, 75);
 		label.setFont("SansSerif-36");
